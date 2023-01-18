@@ -1,0 +1,45 @@
+{
+    "name": "Look",
+    "maps": [
+        {
+            "name": "Look",
+            "id": "b99acce1-7e0e-46dc-b8e1-84ce48219e1e",
+            "actions": [
+                {
+                    "name": "KeyLook",
+                    "type": "Button",
+                    "id": "05b2aadb-b200-4f7c-8cf3-cc5624f229f0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b917eb49-c94d-4950-b263-314a39e37bda",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa45b66e-f1bd-4f7f-ae53-5d2feac998ac",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

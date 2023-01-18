@@ -1,0 +1,585 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663138152444342, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138152445698, "dur": 196958, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138152642811, "dur": 7637281, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138160280137, "dur": 21400, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138196162128, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138196162389, "dur": 8635, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138196171043, "dur": 127065, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138196298172, "dur": 3121440, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138199419615, "dur": 4810048, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138204229665, "dur": 12870, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138204256297, "dur": 30, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1663138198399110, "dur": 964872, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663138198400895, "dur": 409725, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663138199323763, "dur": 7589, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663138199331358, "dur": 32605, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663138199332601, "dur": 30221, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663138199386426, "dur": 1527, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663138199378765, "dur": 9218, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138204256574, "dur": 18357, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663138199556579, "dur":1477, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138199558062, "dur":338, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663138199558477, "dur":55, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663138199558534, "dur":540, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663138199559122, "dur":708, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138199559830, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878061, "dur":124, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878185, "dur":139, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878324, "dur":36, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878360, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878374, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878377, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878386, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878390, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878398, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878401, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878409, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878412, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878423, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878427, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878437, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878440, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878449, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878461, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203878581, "dur":5094, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663138199559595, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138199559848, "dur":4464, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138199564336, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663138199564344, "dur":7687, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138199572036, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663138199572101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138199572383, "dur":6421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663138199578807, "dur":19367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1663138199598179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138199598199, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1663138199599238, "dur":33047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1663138199632290, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138199632299, "dur":102391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1663138199734745, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1663138199734859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138199734867, "dur":58072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1663138199792998, "dur":263819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200056821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200074083, "dur":5374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200079504, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200079648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200090772, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200091663, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200091897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200091926, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200093633, "dur":431686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200525323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200525331, "dur":26989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200552376, "dur":125887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200678268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200678276, "dur":4674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200682972, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200683143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200683156, "dur":19893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200703065, "dur":25673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200728742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200728760, "dur":12117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200740894, "dur":34562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200775460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200775467, "dur":16666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200792148, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200792350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200792359, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200793820, "dur":128747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200922571, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138200922585, "dur":18520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138200941116, "dur":83150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201024271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201024282, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201026318, "dur":33367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201059688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201059695, "dur":16505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201076219, "dur":868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201077092, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201077104, "dur":24149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201101270, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201101717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201101729, "dur":16594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201118338, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201118461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201118470, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201118958, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201119080, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201119085, "dur":506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201119600, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.PixelPerfect.Samples.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201119668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201119673, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.PixelPerfect.Samples.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201120118, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201120224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201120233, "dur":18405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201138652, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201138734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201138741, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201139542, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201139689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201139697, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201140444, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201140593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201140600, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201141199, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201141399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201141406, "dur":14353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201155775, "dur":2434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201158213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201158223, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201160808, "dur":691577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201852389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138201852396, "dur":47796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138201900210, "dur":498853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138202399067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663138202399075, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663138202399617, "dur":1478428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138199559601, "dur":253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138199559854, "dur":4480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138199564338, "dur":31707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663138199596049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138199596105, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663138199596884, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663138199597049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138199597071, "dur":16452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663138199613582, "dur":149991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663138199763576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138199763585, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663138199764096, "dur":243211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200007311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138200074083, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200075258, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1663138200075390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138200090581, "dur":65267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1663138200155909, "dur":386445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200542358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138200542366, "dur":9975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200552358, "dur":168778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200721142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138200721152, "dur":19514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200740686, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200740801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138200740810, "dur":50354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200791185, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200791322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138200791330, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200793439, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200793921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138200793930, "dur":25812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200819761, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200820300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138200820306, "dur":26562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200846929, "dur":51213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200898149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138200898160, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138200899402, "dur":143626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138201043034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138201043044, "dur":15299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138201058360, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138201058475, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138201058488, "dur":17611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138201076113, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138201076741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138201076750, "dur":24603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138201101372, "dur":200242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138201301618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138201301626, "dur":531994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138201833641, "dur":247359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138202081005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138202081015, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138202081914, "dur":28631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138202110549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138202110557, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138202111079, "dur":264318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138202375403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138202375444, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663138202376108, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1663138202376129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138202376137, "dur":7459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1663138202383613, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663138202383631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663138202383636, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663138202387135, "dur":1490924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138199559692, "dur":177, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138199559869, "dur":4456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138199564336, "dur":168833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1663138199733175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138199733407, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1663138199734434, "dur":189710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1663138199924148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138199924157, "dur":150266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1663138200074477, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast.exe" }}
+,{ "pid":12345, "tid":3, "ts":1663138200075205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200075213, "dur":16300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast.exe" }}
+,{ "pid":12345, "tid":3, "ts":1663138200091532, "dur":433405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200524943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200524976, "dur":26556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200551568, "dur":118743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200670317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200670327, "dur":12697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200683041, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200683216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200683223, "dur":19591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200702830, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200703165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200703173, "dur":12913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200716108, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200716285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200716292, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200717275, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200717420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200717463, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200718116, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200718239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200718247, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200719003, "dur":34320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200753326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200753333, "dur":38422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200791769, "dur":16215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200807990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200807999, "dur":11943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200819961, "dur":172620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200992597, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138200992677, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138200995302, "dur":49168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201044474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138201044481, "dur":13883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201058380, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201058773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138201058779, "dur":17021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201075814, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201076008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138201076021, "dur":23535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201099576, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201099700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138201099716, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201102120, "dur":185023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201287148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138201287161, "dur":546316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201833503, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201833645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138201833657, "dur":66264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138201899947, "dur":166797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138202066748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202066756, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138202069807, "dur":2363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138202072173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202072190, "dur":194423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138202266631, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138202266942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202266951, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663138202267807, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1663138202267849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202267874, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1663138202269989, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202270014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202270022, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202270660, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202270676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202270682, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202271268, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202271285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202271292, "dur":19685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202291007, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202291026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202291033, "dur":6122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202297172, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202297189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202297197, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202297897, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202297908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202297929, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202298477, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202298496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202298501, "dur":442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202298952, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202298963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202298968, "dur":6069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202305049, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1663138202305060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202305065, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1663138202308019, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202308030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202308035, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202310730, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202310742, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202310747, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202311711, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1663138202311811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202311821, "dur":16795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1663138202328636, "dur":11543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1663138202340183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202340190, "dur":523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1663138202340725, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/resources.resource" }}
+,{ "pid":12345, "tid":3, "ts":1663138202340737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202340742, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/resources.resource" }}
+,{ "pid":12345, "tid":3, "ts":1663138202341197, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202341212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202341217, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663138202343021, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202343033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202343038, "dur":28923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663138202371977, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1663138202371989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202371995, "dur":3655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1663138202375667, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1663138202375681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202375687, "dur":7531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1663138202383235, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1663138202383252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202383259, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1663138202384118, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1663138202384236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663138202384242, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1663138202387621, "dur":1490423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138199559746, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138199559889, "dur":4450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138199564342, "dur":83103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1663138199647449, "dur":85701, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138199733170, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1663138199734577, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1663138199734693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138199734705, "dur":439500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1663138200174285, "dur":350844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200525134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138200525142, "dur":27010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200552192, "dur":133569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200685766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138200685776, "dur":17361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200703170, "dur":49303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200752479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138200752514, "dur":39327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200791860, "dur":17281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200809144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138200809150, "dur":10879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200820045, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200820187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138200820195, "dur":25459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200845733, "dur":941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200846693, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138200846721, "dur":4629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200851418, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200851862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138200851889, "dur":24158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138200876094, "dur":161281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138201037380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138201037391, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138201038330, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138201038580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138201038589, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138201039412, "dur":143970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138201183386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138201183393, "dur":649989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138201833407, "dur":1153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138201834565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138201834575, "dur":66134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138201900726, "dur":230012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138202130742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138202130750, "dur":3677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138202134445, "dur":790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138202135239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138202135246, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138202135957, "dur":4375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138202140337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663138202140347, "dur":408366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663138202548741, "dur":1329324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138199559787, "dur":115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138199559902, "dur":4451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138199564353, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1663138199564581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138199571495, "dur":29129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1663138199600670, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1663138199600756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138199600762, "dur":553173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1663138200154006, "dur":382113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200536124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138200536135, "dur":15898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200552050, "dur":108099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200660153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138200660160, "dur":22592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200682776, "dur":14725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200697505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138200697513, "dur":5267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200702798, "dur":1253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200704056, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138200704079, "dur":13347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200717440, "dur":90572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200808015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138200808023, "dur":12098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200820135, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200820239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138200820246, "dur":27102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200847411, "dur":47438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200894856, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138200894869, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138200895851, "dur":127905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201023763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138201023776, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201025990, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201026218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138201026229, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201027181, "dur":18284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201045468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138201045475, "dur":12715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201058208, "dur":106385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201164627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138201164638, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201165591, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201166033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138201166044, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138201167028, "dur":906467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138202073499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138202073509, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138202074795, "dur":1574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138202076373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138202076380, "dur":57999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138202134397, "dur":51621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138202186024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138202186034, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138202188197, "dur":256264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138202444465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663138202444472, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663138202445449, "dur":1432598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663138199559882, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663138199559883, "dur":4453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663138199564337, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663138199564624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663138199571185, "dur":163127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663138199734378, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663138199734517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663138199734546, "dur":76403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663138199811003, "dur":3868993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663138203680000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663138203680006, "dur":197936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663138203878009, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1663138203878011, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138199559943, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138199559944, "dur":4397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138199564342, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663138199564557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138199571185, "dur":582744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663138200153997, "dur":371280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200525281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138200525288, "dur":27949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200553257, "dur":66162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200619423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138200619431, "dur":543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200619990, "dur":82124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200702119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138200702127, "dur":13132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200715282, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200715391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138200715398, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200718319, "dur":40715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200759039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138200759046, "dur":32526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200791589, "dur":18393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200809985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138200809990, "dur":9971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200819976, "dur":102364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200922346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138200922357, "dur":18633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200941011, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200941145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138200941154, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200942100, "dur":1314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200943420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138200943430, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138200944670, "dur":96072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201040747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138201040758, "dur":17307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201058083, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201058229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138201058261, "dur":17301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201075586, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201076352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138201076361, "dur":24607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201100997, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201101131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138201101139, "dur":16918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201118077, "dur":219266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201337347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138201337355, "dur":496479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138201833850, "dur":260916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202094771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138202094779, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202095512, "dur":162764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202258284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138202258295, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202259666, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202259801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138202259810, "dur":6975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202266800, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202266961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138202266970, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202267687, "dur":207130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202474821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663138202525196, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663138202525788, "dur":1352290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138199560008, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138199560009, "dur":4323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138199564336, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1663138199564558, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138199572273, "dur":32630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1663138199604987, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1663138199605113, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138199609308, "dur":125579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1663138199734949, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1663138199735072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138199735078, "dur":162074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1663138199897201, "dur":691315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1663138200588521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138200588528, "dur":19513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1663138200608109, "dur":19658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200627771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138200627779, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200628269, "dur":85829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200714103, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138200714113, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200716449, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200716697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138200716703, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200717615, "dur":109466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200827085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138200827093, "dur":19677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200846837, "dur":978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200847827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138200847851, "dur":3931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138200851862, "dur":161502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201013372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138201013388, "dur":6758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201020176, "dur":49141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201069321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138201069328, "dur":6693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201076042, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201076264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138201076275, "dur":23297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201099597, "dur":1454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201101055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138201101069, "dur":16828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201117913, "dur":209424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201327342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138201327350, "dur":506321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138201833689, "dur":537961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138202371654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138202371661, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663138202372313, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1663138202372330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138202372336, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1663138202376048, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1663138202376065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138202376070, "dur":7545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1663138202383631, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1663138202383648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663138202383654, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DANAN/File Kuliah/Skripsi/Demos/Build 7.01/I Want to be Toast_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1663138202384387, "dur":1493671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663138203917835, "dur":3152, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663138204275001, "dur": 567, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663138204256287, "dur": 19298, "ph": "X", "name": "Write chrome-trace events", "args": {} },
